@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h2 class="text-center my-3">Money Talks</h2>
+    </header>
+
+        <main class="container">
+            <section>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col col-lg-3 bg-success p-5 m-2">
+                        <h4>Deposit</h4>
+                        <h5>$<span id="deposit-amount">00</span></h5>
+                    </div>
+                    <div class="col col-lg-3 bg-warning p-5 m-2">
+                        <h4>Witdraw</h4>
+                        <h5>$<span id="withdraw-amount">00</span></h5>
+                    </div>
+                    <div class="col col-lg-3 bg-danger p-5 m-2">
+                        <h4>Balance</h4>
+                        <h5>$<span id="balance-amount">1200</span></h5>
+                    </div>
+                </div>
+            </section>
+               
+            <section>
+                <div class="row my-5 d-flex justify-content-center align-items-center">
+                    <div class="col col-lg-5 bg-primary text-white p-5 m-2">
+                        <h4>Deposit Here</h4>
+                        <input type="text" id="deposit-input" placeholder="Enter $ to Deposit" class="mt-2 mb-3 w-100 fs-3">
+                        <button class="bg-warning text-white border-0 rounded fs-3 px-3" id="deposit-submit">Deposit</button>
+                    </div>
+                    <div class=" col col-lg-5 bg-info text-white p-5 m-2">
+                        <h4>Witdraw Here</h4>
+                        <input type="text" id="withdraw-input" placeholder="Enter $ to withdraw" class="mt-2 mb-3 w-100 fs-3">
+                        <button class="bg-warning text-white border-0 rounded fs-3 px-3" id="withdraw-submit">Withdraw</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+   
+    
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bank.js"></script>
+</body>
+</html>
